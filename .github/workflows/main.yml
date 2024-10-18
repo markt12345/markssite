@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-2  # Change to your desired region
 
       - name: Sync files to S3
-        run: aws s3 sync . s3://your-bucket-name --exclude ".git/*" --exclude "README.md" # Adjust as needed
+        run: aws s3 sync . http://globalsupplierbucket.s3-website.us-east-2.amazonaws.com --exclude ".git/*" --exclude "README.md" # Adjust as needed
