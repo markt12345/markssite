@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the MSD</title>
+</head>
+<body>
+    <h1>Welcome to the MSD Global Supplier Portal</h1>
+    <h2>Use this portal to submit your information<h2>
+    
+       <style>
+       
+        input[type="text"] {
+            margin-bottom: 15px; /* Space between input boxes */
+            width: 100%;
+            padding: 10px;
+            border: 2px solid black; /* Adjust border width and color */
+            padding: 15px;           /* Space between text and border */
+            background-color: teal;  /* Color of the box */
+            display: inline-block;    /* Allows the box to fit the text */
+            box-sizing: border-box;
+            margin-bottom: 15px; /* Space between input boxes */
+        
+        }
 
+    	</style> 
+    	
+    <body>
+    
+    <div class="text-box">
+    
+    <p style="font-family: Arial, sans-serif; font-size: 20pt;">
+    
+    <label for="supplierName">Supplier Name:</label>
+    <input type="text" id="suppliername" name="name" placeholder="Enter your name"><br><br>
+    
+    <label for="suppliersite">Supplier Website:</label>
+    <input type="text" id="suppliersite" name="name" placeholder="Enter your website"><br><br>
+
+    <label for="supplierainnumber">Supplier Main Phone Number:</label>
+    <input type="text" id="suppliermainnumber" name="vendorWebsite" placeholder="Enter your phone number"><br><br>
+    
+    <label for="suppliercontactname1">Supplier Contact Name 1:</label>
+    <input type="text" id="suppliercontactname1" name="vendorWebsite" placeholder="Contact Name 1"><br><br>
+    
+    <label for="suppliercontactname2">Supplier Contact Name2:</label>
+    <input type="text" id="suppliercontactname2" name="vendorWebsite" placeholder="Contact Name 2"><br><br>
+     
+    <label for="typeservice">Enter Type of Service</label>
+    <input type="text" id="typeservice" name="typeservice" placeholder="Enter Type of Service"><br><br>
+     
+    <label for="comments">Enter Comments or Other information:</label>
+    <input type="text" id="comments" name="comments" placeholder="comments"><br><br>
+    
+    <button type="submit">Submit</button>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</p>
+
+    </div>
+ 
+    <h2>Use this to find your Supplier record<h2>
+    
+    <style>
+    
+        .text-box {
+            margin-bottom: 15px; /* Space between input boxes */
+            width: 100%;
+            padding: 10px;
+            border: 2px solid black; /* Adjust border width and color */
+            padding: 15px;           /* Space between text and border */
+            background-color: teal;  /* Color of the box */
+            display: inline-block;    /* Allows the box to fit the text */
+            box-sizing: border-box;
+            margin-bottom: 15px; /* Space between input boxes */
+
+        }
+    </style>
+    
+    <body>
+    
+    <div class="text-box">
+     
+    
+	<p style="font-family: Arial, sans-serif; font-size: 20pt;">
+	
+	<label for="findsupplier">Enter email to find supplier record:</label>
+    <input type="text" id="suppliercontactname1" name="vendorWebsite" placeholder="Find Supplier Record"><br><br>
+    
+    <button type="submit">Submit</button>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </div>
+
+	<p style="font-family: Arial, sans-serif; font-size: 12pt;">
+
+	</p>
+	
+    <p>If you have any questions, feel free to reach out to us at:</p>
+    <p>
+        <a href="mailto:helpme@example.com">helpme@example.com</a>
+    </p>
+
+
+	</body>
+	
+</html>
